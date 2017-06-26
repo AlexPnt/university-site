@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>NLPlay - Simple Frontend for NLP Tools</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+      <header class="demo-header mdl-layout__header mdl-color--white mdl-color--grey-100 mdl-color-text--grey-600">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title" style="text-align: center;">Processing Results</span>
+        </div>
+      </header>
+        <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+        <header class="demo-drawer-header">
+            <span class="mdl-layout-title">NLPlay</span>
+        </header>
+        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+
+        <form role="form" style="color: white;" action="/nlplay" method="post">
+                            <div class="mdl-textfield mdl-js-textfield mdl-color-text--blue-grey-400">
+                                <label class="mdl-navigation__link mdl-textfield__label mdl-color-text--blue-grey-400" for="t1"></label>
+                                <textarea class="mdl-textfield__input mdl-color-text--blue-grey-400" style="margin-left: 10px;" name="text" type="text" rows= "10" id="t1" placeholder="The quick brown fox jumps over the lazy dog" required></textarea>
+                            </div>
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400 material-icons" role="extension">extension</i>NLP Tools</p>
+
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" name="nltk" />
+                                <span class="mdl-checkbox__label">NLTK</span>
+                                </label>
+                            </i></p>
+                            <div class="mdl-layout-spacer"></div>
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                  <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" name="opennlp"/>
+                                  <span class="mdl-checkbox__label">Apache OpenNLP</span>
+                                </label>
+                            </i></p>
+                            <div class="mdl-layout-spacer"></div>
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+                                  <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input" name="stanfordnlp"/>
+                                  <span class="mdl-checkbox__label">Stanford CoreNLP</span>
+                                </label>
+                            </i></p>
+                            <div class="mdl-layout-spacer"></div>
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-4">
+                                  <input type="checkbox" id="checkbox-4" class="mdl-checkbox__input" name="arittertwitternlp"/>
+                                  <span class="mdl-checkbox__label">Aritter Twitter NLP</span>
+                                </label>
+                            </i></p>
+                            <div class="mdl-layout-spacer"></div>
+                            <p style="font-weight: bold;" class="mdl-navigation__link"><i class="mdl-color-text--blue-grey-400">
+                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-5">
+                                  <input type="checkbox" id="checkbox-5" class="mdl-checkbox__input" name="arktwitternlp" />
+                                  <span class="mdl-checkbox__label">CMU Ark Twitter NLP</span>
+                                </label>
+                            </i></p>
+                            <div class="mdl-layout-spacer"></div></br>
+                            <p class="mdl-navigation__link"> <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Submit</button></p>
+                        </form>
+        </nav>
+      </div>
+    <!-- Page Content -->
+      <main class="mdl-layout__content mdl-color--grey-300">
+        <div class="mdl-grid demo-content">
+
+
+
+
+

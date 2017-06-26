@@ -1,0 +1,14 @@
+/* TEAM */
+	Alexandre Pinto
+	From: Coimbra, Portugal
+
+/* THANKS */
+	
+	Skeleton: A Beautiful Boilerplate for Responsive, Mobile-Friendly Development
+	www.getskeleton.com
+
+/* SITE */
+	Last update:2014/02/03
+	Language: English
+	Technologies: HTML5, CSS, jQuery
+	Tools: Sublime Text, FileZilla, GIMP

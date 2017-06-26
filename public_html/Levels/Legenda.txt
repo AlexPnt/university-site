@@ -1,0 +1,30 @@
+
+Plataformas verdes:
+- base
+= topo
+
+Plataformas amarelas:
+. base
+: topo
+
+Plataformas gelo:
+_ base
+* topo
+
+Plataforma auto-destrutiva:
+o
+
+Plataforma transparente:
+x
+
+Outros simbolos:
+d Porta (door)
+l Alavanca (lever)
++ Caixa
+# picos
+M masculino
+F feminino
+f feminino destrutivel
+
+Se o objectivo for os dois heroes atravessarem a porta
+introduzir um B no ficheiro do nivel em qualquer sitio antes da porta

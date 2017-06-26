@@ -1,0 +1,15 @@
+.D                 . 
+.                  . 
+.                  . 
+.f                 . 
+.xxxxxxxxxxxxxx    . 
+.                  . 
+.                  . 
+.    xxxxxxxxxxxxxx. 
+.                  . 
+.                  . 
+.xxxxxx            . 
+.      xxxxx       . 
+.M          xxxx  l. 
+.oooooooooooooooooo. 
+.oooooooooooooooooo.

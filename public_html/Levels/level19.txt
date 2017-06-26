@@ -1,0 +1,15 @@
+.C                 . 
+.M                 . 
+.xxxxxxxxxxxxxxx   . 
+.                  . 
+.                  . 
+.       xxxxxxxxxxx. 
+.  xxxxx           . 
+.                  . 
+.F                 . 
+.xxxxxxxxxxxxx     . 
+.                  . 
+.                  . 
+.d          xxxxxxx. 
+.xxxxxxxxxxxxx     . 
+....................
